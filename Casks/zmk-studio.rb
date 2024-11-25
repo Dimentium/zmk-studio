@@ -8,7 +8,7 @@ cask "zmk-studio" do
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
     
-  url "https://github.com/zmkfirmware/zmk-studio/releases/download/v#{version}/zmk-studio_#{version}_#{arch}.dmg"
+  url "https://github.com/zmkfirmware/zmk-studio/releases/download/v#{livecheck}/zmk-studio_#{livecheck}_#{arch}.dmg"
   
   name "zmk-studio.app"
   desc "ZMK-Studio - keyboard layout editor"
