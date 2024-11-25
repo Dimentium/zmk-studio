@@ -1,5 +1,5 @@
 cask "zmk-studio_aarch64" do
-  version "0.2.4"
+  version "0.2.3"
   sha256 :no_check
 
   url "https://github.com/zmkfirmware/zmk-studio/releases/download/v#{version}/zmk-studio_#{version}_aarch64.dmg"
